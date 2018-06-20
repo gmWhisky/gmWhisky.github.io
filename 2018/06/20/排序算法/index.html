@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="algorithmic," />
 
 
 
@@ -79,13 +79,18 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="Whisky">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="排序算法  桶排序y 冒泡排序 y 快速排序y 插入排序y 选择排序y 归并排序y 希尔排序y 基数排序y 堆排序y 猴子排序 鸡尾酒排序   插入类排序插入排序要排序的数组中，假设前n-1（n&amp;gt;=2）个数已经是排好序的，现在要把第n个数插入到前n个已经排好序的数组中，使得这n个数也变成有序的，如此反复循环，使得要排序的数组中的最后一个元素也排好序  每次插入，都从前面的有序子表中查找出待插">
+<meta name="keywords" content="algorithmic">
+<meta property="og:type" content="article">
+<meta property="og:title" content="排序算法">
+<meta property="og:url" content="http://yoursite.com/2018/06/20/排序算法/index.html">
 <meta property="og:site_name" content="Whisky">
+<meta property="og:description" content="排序算法  桶排序y 冒泡排序 y 快速排序y 插入排序y 选择排序y 归并排序y 希尔排序y 基数排序y 堆排序y 猴子排序 鸡尾酒排序   插入类排序插入排序要排序的数组中，假设前n-1（n&amp;gt;=2）个数已经是排好序的，现在要把第n个数插入到前n个已经排好序的数组中，使得这n个数也变成有序的，如此反复循环，使得要排序的数组中的最后一个元素也排好序  每次插入，都从前面的有序子表中查找出待插">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2018-06-20T09:33:23.565Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Whisky">
+<meta name="twitter:title" content="排序算法">
+<meta name="twitter:description" content="排序算法  桶排序y 冒泡排序 y 快速排序y 插入排序y 选择排序y 归并排序y 希尔排序y 基数排序y 堆排序y 猴子排序 鸡尾酒排序   插入类排序插入排序要排序的数组中，假设前n-1（n&amp;gt;=2）个数已经是排好序的，现在要把第n个数插入到前n个已经排好序的数组中，使得这n个数也变成有序的，如此反复循环，使得要排序的数组中的最后一个元素也排好序  每次插入，都从前面的有序子表中查找出待插">
 
 
 
@@ -115,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/06/20/排序算法/"/>
 
 
 
 
 
-  <title>Whisky</title>
+  <title>排序算法 | Whisky</title>
   
 
 
@@ -140,8 +145,7 @@
     
   
 
-  <div class="container sidebar-position-right 
-  page-home">
+  <div class="container sidebar-position-right page-post-detail">
     <div class="headband">
     <a href="https://github.com/you"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_left_darkblue_121621.png" alt="Fork me on GitHub"></a></div>
 
@@ -265,9 +269,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -297,9 +301,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/06/20/排序算法/" itemprop="url">排序算法</a></h1>
+          <h1 class="post-title" itemprop="name headline">排序算法</h1>
         
 
         <div class="post-meta">
@@ -349,9 +351,7 @@
       
 
       
-        
-          
-            <h3 id="排序算法"><a href="#排序算法" class="headerlink" title="排序算法"></a>排序算法</h3><blockquote>
+        <h3 id="排序算法"><a href="#排序算法" class="headerlink" title="排序算法"></a>排序算法</h3><blockquote>
 <ul>
 <li><strong>桶排序</strong>y</li>
 <li><strong>冒泡排序</strong> y</li>
@@ -456,8 +456,6 @@
 </ul>
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span> N 10</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">int</span> <span class="built_in">array</span>[N];<span class="comment">//两个数组合并函数</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">MergeArray</span><span class="params">(<span class="keyword">int</span> a[],<span class="keyword">int</span> left,<span class="keyword">int</span> right,<span class="keyword">int</span> mid)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> i = left,j = mid + <span class="number">1</span>,k = <span class="number">0</span>,m,p;</span><br><span class="line">	<span class="keyword">int</span> b[N];</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">while</span>(i &lt;= mid &amp;&amp; j &lt;= right)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">if</span>( a[i] &lt;= a[j])</span><br><span class="line">		&#123;</span><br><span class="line">			b[k++] = a[i++];</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">else</span></span><br><span class="line">		&#123;</span><br><span class="line">			b[k++] = a[j++];</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">while</span>(i &lt;= mid)</span><br><span class="line">		b[k++] = a[i++];</span><br><span class="line">	<span class="keyword">while</span>(j &lt;= right)</span><br><span class="line">		b[k++] = a[j++];</span><br><span class="line">		</span><br><span class="line">	<span class="keyword">for</span>(p = <span class="number">0</span>,m = left;m &lt;= right;p++,m++)</span><br><span class="line">		a[m] = b[p];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">Pass</span><span class="params">(<span class="keyword">int</span> a[],<span class="keyword">int</span> n)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> num = <span class="number">0</span>,i;</span><br><span class="line">	<span class="keyword">int</span> max = a[<span class="number">0</span>];</span><br><span class="line">	</span><br><span class="line"></span><br><span class="line">	<span class="built_in">array</span>[num++] =  <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">for</span>(i = <span class="number">1</span>;i &lt; n;i++)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">if</span>(a[i] &gt;= max)</span><br><span class="line">			max = a[i];</span><br><span class="line">		<span class="keyword">else</span></span><br><span class="line">		&#123;</span><br><span class="line">			<span class="built_in">array</span>[num++] = i;</span><br><span class="line">			max = a[i];</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="comment">//array数组存储每一组有序的数组的起始元素的下标,同时存储最后一个元素的下标+1,为了方便最后一组元素的合并二需要!!!</span></span><br><span class="line">	<span class="built_in">array</span> [num++] = N;</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">return</span> num;<span class="comment">//num为数组最后一个元素下表+1</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//归并排序的自然实现</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">MergeSort</span> <span class="params">(<span class="keyword">int</span> a[],<span class="keyword">int</span> n,<span class="keyword">int</span> left,<span class="keyword">int</span> right)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> i;</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">int</span> num = Pass(a,n);</span><br><span class="line">	<span class="keyword">while</span>(num != <span class="number">2</span>)<span class="comment">//num= 2 说明已经排序完成即只储存了下标为1 的元素</span></span><br><span class="line">	&#123;   <span class="comment">//没循环一次 执行一次Pass函数</span></span><br><span class="line">		<span class="keyword">for</span>(i = <span class="number">0</span>;i &lt; num ;i += <span class="number">2</span>)</span><br><span class="line">		&#123;</span><br><span class="line">			MergeArray(a,<span class="built_in">array</span>[i],<span class="built_in">array</span>[i+<span class="number">2</span>]<span class="number">-1</span>,<span class="built_in">array</span>[i+<span class="number">1</span>]<span class="number">-1</span>);</span><br><span class="line">			<span class="comment">//array[i]即合并数据的起点;</span></span><br><span class="line">			<span class="comment">// array[i+2]后一组的后面一组的起点-1即合并数据的终点;</span></span><br><span class="line">			<span class="comment">// array[i+1]后一组的起点-1即合并数据的中点</span></span><br><span class="line">		&#125;</span><br><span class="line">		num = Pass(a,n);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-          
-        
       
     </div>
     
@@ -472,354 +470,36 @@
 
     <footer class="post-footer">
       
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/06/20/链表基础应用/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="gaomeng">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/IMG_5534(20180507-031020).jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Whisky">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/06/20/链表基础应用/" itemprop="url">链表基础应用</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-06-20T17:09:25+08:00">
-                2018-06-20
-              </time>
-            
-
-            
-
-            
-          </span>
-
+        <div class="post-tags">
           
-
+            <a href="/tags/algorithmic/" rel="tag"># algorithmic</a>
           
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h3 id="链表知识汇总"><a href="#链表知识汇总" class="headerlink" title="链表知识汇总"></a>链表知识汇总</h3><blockquote>
-<ul>
-<li><strong>链表逆序</strong></li>
-<li><strong>链表求交点</strong></li>
-<li><strong>链表求环</strong></li>
-<li><strong>链表划分</strong></li>
-<li><strong>复杂链表的复制</strong></li>
-<li><strong>两个排序列表归并</strong></li>
-<li><strong>K个排序链表归并</strong></li>
-</ul>
-</blockquote>
-<h4 id="链表基础"><a href="#链表基础" class="headerlink" title="链表基础"></a><strong>链表基础</strong></h4><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//c语言链表创建</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">node</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">	<span class="keyword">int</span> data;  <span class="comment">//储存元素的数据域</span></span><br><span class="line">	<span class="class"><span class="keyword">struct</span> <span class="title">node</span>*<span class="title">next</span>;</span>  <span class="comment">//储存下一个节点地址的指针域</span></span><br><span class="line">&#125;;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="class"><span class="keyword">struct</span> <span class="title">node</span> *<span class="title">head</span>,*<span class="title">p</span>,*<span class="title">q</span>,*<span class="title">t</span>;</span></span><br><span class="line">	<span class="keyword">int</span> i,n,a;</span><br><span class="line">	<span class="built_in">scanf</span>(<span class="string">"%d"</span>,&amp;n);</span><br><span class="line">	head = <span class="literal">NULL</span>;</span><br><span class="line">	<span class="keyword">for</span>(i = <span class="number">1</span>;i &lt;= n;i++)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">scanf</span>(<span class="string">"%d"</span>,&amp;a);</span><br><span class="line">        p = (struct node)* <span class="built_in">malloc</span> (<span class="keyword">sizeof</span>(struct node));</span><br><span class="line">		p-&gt;data = a;</span><br><span class="line">		p-&gt;next = <span class="literal">NULL</span>;</span><br><span class="line">		<span class="keyword">if</span>(head == <span class="literal">NULL</span>) head = p;</span><br><span class="line">		<span class="keyword">else</span>             q-&gt;next = p;</span><br><span class="line">	&#125;</span><br><span class="line">	t = head;</span><br><span class="line">	<span class="keyword">while</span>(t != <span class="literal">NULL</span>);</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">"%d"</span>,t-&gt;data);</span><br><span class="line">	t = t-&gt;next;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>在链表中，链表节点定义如下：<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Definition <span class="keyword">for</span> singly-linked <span class="built_in">list</span>.</span><br><span class="line"> * <span class="class"><span class="keyword">struct</span> <span class="title">ListNode</span> &#123;</span></span><br><span class="line"> *     <span class="keyword">int</span> val;</span><br><span class="line"> *     <span class="class"><span class="keyword">struct</span> <span class="title">ListNode</span> *<span class="title">next</span>;</span> </span><br><span class="line"> * &#125;;</span><br></pre></td></tr></table></figure></p>
-<p>在申请空间时代码如下：<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">temp1=(struct ListNode*)<span class="built_in">malloc</span>(<span class="keyword">sizeof</span>(struct ListNode));</span><br></pre></td></tr></table></figure></p>
-<p>由于结构体内存在next指针，而申请结构体空间后同时定义了next指针，此时next指针未指向任何空间，故在测试时可能导致上述错误。<br>解决方法为：</p>
-<p>增加代码使next指针指向空。</p>
-<p>temp-&gt;next=NULL;</p>
-<h4 id="链表逆序"><a href="#链表逆序" class="headerlink" title="链表逆序"></a><strong>链表逆序</strong></h4><p><a href="https://leetcode-cn.com/problems/reverse-linked-list/description/" target="_blank" rel="noopener">链表全部逆序</a><br>思路：依次遍历链表节点，每遍历一个节点即逆置一个节点</p>
-<blockquote>
-<p>备份head-&gt;next<br>修改head-&gt;next<br>移动head与new_head</p>
-</blockquote>
-<p><a href="https://leetcode-cn.com/problems/reverse-linked-list-ii/description/" target="_blank" rel="noopener">链表部分逆序</a><br>思路：先找到几个关键的节点，<br>                   <em>逆置段头节点的前驱，逆置段头节点的后继
-                   </em>逆置前头节点，逆置前尾节点<br>                   *逆置后头节点，逆置后尾节点<br>                   然后逆置从m-1开始n-m+1个节点，最后连接</p>
-<blockquote>
-<p>计算需要 逆置的节点个数<br>初始化开始逆置的节点的前驱<br>初始化最终转化后的表头节点result，非特殊情况下head<br>将head向前移动m-1个位置<br>将modify_list_tail指向当前head即逆置后的链表尾<br>逆置len个节点<br>连接逆置的链表的链表尾与逆置段的后一个节点<br>如果m = 1 的话 result = new_head</p>
-</blockquote>
-<h5 id="回文链表"><a href="#回文链表" class="headerlink" title="[回文链表]"></a><strong>[回文链表]</strong></h5><p><strong>补充c++里面<a href="https://blog.csdn.net/u012655441/article/details/64920825" target="_blank" rel="noopener">stack(堆栈)</a>的用法</strong><br><code></code> cpp<br>stack<int> stk {};//开一个栈<br>stk.push(p_node-&gt;val);//把p_node-&gt;val添加到栈头中<br>stk.pop();   //从栈头移除第一个元素</int></p>
-<p>stk.push(1);stk.push(3);stk.pop();<br>stk.push(5);stk.push(7);  stk.push(9);<br>stk.pop();   stk.pop();<br>//此时stkInt存放的元素是1,5  </p>
-<p>stk.top();//返回最后一个压入栈元素</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">[用stack方法判断是否回文](https://leetcode-cn.com/explore/interview/card/top-interview-questions-easy/6/linked-list/45/)</span><br><span class="line">c++</span><br><span class="line">思路：空间O(n) 整个链表遍历两边， 开一个栈，第一遍遍历把链表中每个元素push进栈中，这样堆中的元素的pop顺序就是链表的倒序输出；第二遍就开始pop栈中数据，每pop一个数据，就把这个数据跟链表中进行对比，如果相同继续往下走，如果不同返回false。</span><br><span class="line"></span><br><span class="line">[用逆置的方法判断](https://leetcode-cn.com/explore/interview/card/top-interview-questions-easy/6/linked-list/45/)</span><br><span class="line">c</span><br><span class="line">思路：找到中间节点。第二步反转中间链表后面的指针，第三部从中间向头尾扫描，对比每个元素是否相等，如果都相等，则是回文数，否则不是回文数。</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">####**链表求交点**</span><br><span class="line">**首先补充c++里面[*STL set*](https://www.cnblogs.com/zyxStar/p/4542835.html)的用法**</span><br><span class="line">	set   :     时间复杂度O(nlogn)   空间复杂度O(n);</span><br><span class="line">``` cpp</span><br><span class="line">std::set&lt;int&gt; text;//STL set</span><br><span class="line">text.insert(a[i]); //将数组a的元素插入set</span><br><span class="line">if(text.find(b[i]) == text.end()) //检查数组b的元素是否再set中</span><br></pre></td></tr></table></figure>
-<p><a href="https://leetcode-cn.com/problems/intersection-of-two-linked-lists/description/" target="_blank" rel="noopener">用set方法求链表交点</a><br>c++<br>思路：遍历链表A 和链表B<br>将A中几点对应的地址插入set中 将B中节点对应的地址 在set中查找<br>在set中的第一个节点的地址，即是两个链表的交点</p>
-<p><a href="https://leetcode-cn.com/problems/intersection-of-two-linked-lists/description/" target="_blank" rel="noopener">用数学方法求链表交点</a>  (时间复杂度和空间复杂度比较低)<br>c<br>思路：计算headA和headB链表长度，还有较长的链表多出的长度<br>将较长链表的指针移动到和较短的指针对齐的位置<br>将两个指针同时移动<strong>同一个节点</strong>的时候 就是链表交点</p>
-<h4 id="链表求环"><a href="#链表求环" class="headerlink" title="链表求环"></a><strong>链表求环</strong></h4><p><a href="https://leetcode-cn.com/problems/linked-list-cycle-ii/description/" target="_blank" rel="noopener">用set方法求环起始节点</a>(判断是否有环 有的话返回入环第一个节点)<br>c++<br>思路：遍历链表，将链表对应的地址插入set中<br>遍历插入节点前，在set中查找，第一个在set中发现的节点地址，就是所求起点</p>
-<blockquote>
-<p>设置text 遍历链表<br>如果在text中已经出现了 返回环的第一个节点head<br>将节点插入text<br>如果没有遇到环，返回NULL</p>
-</blockquote>
-<p> <a href="https://leetcode-cn.com/explore/interview/card/top-interview-questions-easy/6/linked-list/46/" target="_blank" rel="noopener">快慢指针赛跑</a>  (判断是否有环)</p>
-<blockquote>
-<p>原理是：快指针的移动速度是慢指针移动速度的2倍，因此当快指针到达链表尾时，慢指针到达中点。程序还要考虑链表结点个数的奇偶数因素，当快指针移动x次后到达表尾（1+2x），说明链表有奇数个结点，直接返回慢指针指向的数据即可。如果快指针是倒数第二个结点，说明链表结点个数是偶数，这时可以根据“规则”返回上中位数或下中位数或（上中位数+下中位数）的一半。</p>
-</blockquote>
-<p>c<br>思路：让快指针每次移动2，慢指针每次只移动1 设最后相遇所在的节点为meet<br>meet存在即有环<br>从head与meet出发 ，两指针速度一样的时候，相遇时即为环的起点</p>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">ListNode</span> *<span class="title">fast</span>=<span class="title">head</span>, *<span class="title">slow</span>=<span class="title">head</span>;</span></span><br><span class="line">    <span class="keyword">while</span>( slow &amp;&amp; fast &amp;&amp; fast-&gt;next )&#123;</span><br><span class="line">        fast=fast-&gt;next-&gt;next;</span><br><span class="line">        slow=slow-&gt;next;</span><br><span class="line">        <span class="keyword">if</span>(fast==slow) <span class="keyword">return</span> <span class="literal">true</span>;<span class="comment">//break;</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line"></span><br><span class="line">    </span><br><span class="line"><span class="comment">//   if( fast != slow )</span></span><br><span class="line"><span class="comment">//        return NULL;</span></span><br><span class="line"><span class="comment">//    while( head != slow ) </span></span><br><span class="line"><span class="comment">//    &#123;</span></span><br><span class="line"><span class="comment">//        slow = slow -&gt; next;</span></span><br><span class="line"><span class="comment">//        head = head -&gt; next;</span></span><br><span class="line"><span class="comment">//    &#125;</span></span><br><span class="line"><span class="comment">//    return head;</span></span><br></pre></td></tr></table></figure>
-<h4 id="链表划分"><a href="#链表划分" class="headerlink" title="链表划分"></a><strong>链表划分</strong></h4><p><a href="https://leetcode-cn.com/problems/partition-list/description/" target="_blank" rel="noopener">利用临时头节点</a></p>
-<p>思路：声明两个新的节点</p>
-<p>&lt;x(3)的节点在less_head后插入   &gt;x(3)的节点在more_head后插入<br>连接less_ptr-&gt;next和more_head.next<br> 同时置空more_ptr-&gt;next 返回less_head.next</p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
       
 
       
       
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
       
 
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/06/11/搭建博客遇到的问题/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="gaomeng">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/IMG_5534(20180507-031020).jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Whisky">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/06/11/搭建博客遇到的问题/" itemprop="url">搭建博客遇到的问题</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-06-11T11:53:36+08:00">
-                2018-06-11
-              </time>
+              <a href="/2018/06/20/链表基础应用/" rel="next" title="链表基础应用">
+                <i class="fa fa-chevron-left"></i> 链表基础应用
+              </a>
             
+          </div>
 
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
             
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <h3 id="补充内容：hexo和博客源文件之间的关系"><a href="#补充内容：hexo和博客源文件之间的关系" class="headerlink" title="补充内容：hexo和博客源文件之间的关系"></a>补充内容：hexo和博客源文件之间的关系</h3><blockquote>
-<p>hexo是用来把博客发送到github 同时把md文件转换成为网页文件,即hexo生成了发布在github的博客后，hexo上的文件是没有上传到github上，还是在本地，传到github上的只是由hexo生成的用来显示的网页文件。</p>
-</blockquote>
-<h2 id="搭建博客过程中踩的坑"><a href="#搭建博客过程中踩的坑" class="headerlink" title="搭建博客过程中踩的坑"></a>搭建博客过程中踩的坑</h2><ul>
-<li>当输入 <strong>hexo g</strong> 时候报错<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cannot find module &apos; &apos;</span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-<p><strong>解决方法</strong>：安装相应的组件 输入以下命令<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --save (+&apos;&apos;里面的内容)</span><br></pre></td></tr></table></figure></p>
-<p>ps：如果说继续输入hexo g 和hexo d还是报错说cannot fine module hexo-generator-category等等插件的话 继续输入下载对应组件代码即可</p>
-<blockquote>
-<p><strong>补充</strong> npm 全安装路径配置<br>（这是当初安装vscode的时候遇到NodeJS安装问题查的资料）<br>npm 是模块管理器 用于管理用户require的模板分成全局和本地两种</p>
-<p>全局： npm install &lt;你的模块&gt; -g<br>这样会直接安装在全局路径下，默认在C:\Users\Administator\AppData\Roaming\npm路径下</p>
-<p>局部: npm install &lt;包的名字&gt;    将模块安装在dos窗当前指引的路径下</p>
-</blockquote>
-<ul>
-<li><p>出现 fatal: Could you read from remote repository.的报错</p>
-<p>  这表示的是github的权限问题</p>
-<p>  <strong>解决方法</strong>：</p>
-<ul>
-<li>先检查是否有SSH keys（我从一开始拿到的这个 后面出现任何错误都没有进行过修改 也不要进行重复获取keys）</li>
-<li><p>然后测试设置是否成功 在git里面输入</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>我出现的结果是 PTY allocation request failed on channel 0 这表示肯定是配置出现了问题 ： <strong>使用的ptmx设备没有在/dev环境下</strong></p>
-<p>  <strong>解决方法</strong>：直接做一个链表文件，在dev目录下执行 ln -s ./pts/ptmx ./  或者 直接在 /dev目录下创建一个ptmx的文件就行</p>
-</li>
-</ul>
-</li>
-</ul>
-<ul>
-<li><p>解决配置hexo主题过程中将语言换成中文的问题</p>
-<p>开始的时候 只是在站点根目录下修改配置文件_cofig.yml中的language为zh-Hans（简体中文）但是如果我有新增的内容的话，显示还是英文。最后应该是<strong>进入到主题目录下的languages文件中修改zh-Hans.yml</strong>这样才能显示出菜单项新增的中文内容</p>
-</li>
-<li><p>有时候修改了主题里面的一些元素之后 刷新没有反应</p>
-<p>  <strong>解决办法</strong> 修改Hexo根目录下_config.yml站点配置目录后 要重新启动Hexo再刷新;修改next主题目录下_config.yml主题配置后，直接刷新就好啦！</p>
-</li>
-<li><p>网页显示404或者空白网页</p>
-<ul>
-<li><p>404页面是客户端在浏览网页时，服务器无法提供正常的信息或者无法回应<br>通俗一点来说就是端口有错，会在页面解析渲染的时候报错页面</p>
-<p>  <strong>解决方法</strong>：先hexo s看一下给出的网址端口是否可以打开，如果不行的话，在git 里面输入“hexo server -p 端口号”来改变端口，并且要在Cltr C之前将网址端口复制到网页中验证。再将本地网站部署（hexo d ，hexo g ）到github，让库生成网页就好啦！！！</p>
-</li>
-<li><p>如果是空白网页，一般情况下是路径出错 由于github page更新了，过滤掉了source/vendors目录的访问</p>
-<p>  <strong>解决办法</strong>：将source/vendors 修改为 source/lib,然后将将 _internal: vendors修改为_internal:lib 然后修改next底下所有引用source/vendors路径为source/lib。这些地方可以通过文件查找找出来。主要集中在这几个文件中。1. Hexo\themes\next.bowerrc  2. Hexo\themes\next.gitignore 3. Hexo\themes\next.javascript_ignore 4. Hexo\themes\next\bower.json 。修改完毕后，刷新重新g一遍就ok啦。</p>
-</li>
-</ul>
-</li>
-</ul>
-<h2 id="hexo的一些命令"><a href="#hexo的一些命令" class="headerlink" title="hexo的一些命令"></a>hexo的一些命令</h2><pre><code>hexo new post &quot;新建文章”
-hexo new page &quot;新建页面&quot;
-hexo g     
-hexo d
-hexo d -g
-hexo s
-hexo s -g 生成加预览
-hexo v
-hexo help 
-hexo clean 
-</code></pre>
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -829,134 +509,11 @@ hexo clean
   </article>
 
 
-    
-      
 
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/06/10/会不会好/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="gaomeng">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/IMG_5534(20180507-031020).jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Whisky">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/06/10/会不会好/" itemprop="url">会不会好</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-06-10T23:11:33+08:00">
-                2018-06-10
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h3 id="今天真的是崩溃的一天"><a href="#今天真的是崩溃的一天" class="headerlink" title="今天真的是崩溃的一天"></a>今天真的是崩溃的一天</h3><ul>
-<li>把hexo弄崩掉</li>
-<li>五子棋变成了不知道什么样子</li>
-<li>周报还没写</li>
-</ul>
-
-          
-        
+    <div class="post-spread">
       
     </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
   </div>
-  
-  
-  
-  </article>
-
-
-    
-  </section>
-
-  
 
 
           </div>
@@ -964,6 +521,10 @@ hexo clean
 
 
           
+
+  
+
+
 
         </div>
         
@@ -984,8 +545,17 @@ hexo clean
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -1040,6 +610,22 @@ hexo clean
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#排序算法"><span class="nav-number">1.</span> <span class="nav-text">排序算法</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#插入类排序"><span class="nav-number"></span> <span class="nav-text">插入类排序</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#插入排序"><span class="nav-number">0.1.</span> <span class="nav-text">插入排序</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#希尔排序"><span class="nav-number">0.2.</span> <span class="nav-text">希尔排序</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#交换类排序"><span class="nav-number"></span> <span class="nav-text">交换类排序</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#冒泡排序"><span class="nav-number">1.</span> <span class="nav-text">冒泡排序</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#快速排序"><span class="nav-number">2.</span> <span class="nav-text">快速排序</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#桶类排序"><span class="nav-number"></span> <span class="nav-text">桶类排序</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#桶排序"><span class="nav-number">1.</span> <span class="nav-text">桶排序</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#基数排序"><span class="nav-number">2.</span> <span class="nav-text">基数排序</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#选择类排序"><span class="nav-number"></span> <span class="nav-text">选择类排序</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#选择排序"><span class="nav-number">1.</span> <span class="nav-text">选择排序</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#堆排列"><span class="nav-number">2.</span> <span class="nav-text">堆排列</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#归并类排序"><span class="nav-number"></span> <span class="nav-text">归并类排序</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#归并排序"><span class="nav-number">1.</span> <span class="nav-text">归并排序</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -1186,6 +772,10 @@ hexo clean
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
