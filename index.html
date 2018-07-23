@@ -280,6 +280,186 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/07/23/css边框/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="gaomeng">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/IMG_5534(20180507-031020).jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Whisky">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/07/23/css边框/" itemprop="url">css边框</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-07-23T16:41:40+08:00">
+                2018-07-23
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="css边框"><a href="#css边框" class="headerlink" title="css边框"></a>css边框</h3><blockquote>
+<ul>
+<li>boder</li>
+<li>boder-color</li>
+<li>boder-style</li>
+<li>boder-width</li>
+<li>boder的上下左右</li>
+</ul>
+</blockquote>
+<h4 id="boder-style-设置四个边框的样式"><a href="#boder-style-设置四个边框的样式" class="headerlink" title="boder-style:设置四个边框的样式"></a>boder-style:设置四个边框的样式</h4><pre><code>例如： p{boder-style:solid;}
+这个属性的一些可能的值：
+hidden ：用于解决边框冲突 
+dotted : 点状边框
+dashed : 定义虚线
+solid : 定义实线
+double : 定义双线
+groove : 定义3D凹槽边框
+ridge : 定义3D垄状边框
+inset : 定义3Dinset边框
+outset ：定义3Doutset边框
+</code></pre><blockquote>
+<p>需要注意的是：还可以为一个边框定义多个样式<br>例如 p {boder-style :solid dotted dashed double;}<br>这里的值采用了 top-right-bottom-left 的顺序<br> 如果你想为元素框的某一个边设置样式</p>
+<ul>
+<li>boder-top-style</li>
+<li>boder-right-style</li>
+<li>boder-bottom-style</li>
+<li>boder-left-style</li>
+</ul>
+</blockquote>
+<p><strong>还有就是单边属性必须放在简写属性之后，否则会被覆盖掉</strong></p>
+<h4 id="boder-width-为边框指定宽度"><a href="#boder-width-为边框指定宽度" class="headerlink" title="boder-width:为边框指定宽度"></a>boder-width:为边框指定宽度</h4><pre><code>例如: p{boder-style:solid;
+        boder-width:5px;}
+这个属性运用有两种方法：
+1 指定长度值 ：2px 0.1em
+2 使用三个关键字 ：thin medium(默认) thick
+</code></pre><blockquote>
+<p>同样的 这个也可以定义单边宽度 按照top-right-bottom-left 的顺序<br>例如 ：p {border-style: solid; border-width: 15px 5px 15px 5px;}</p>
+</blockquote>
+<p>如果你想为元素框的某一个边设置宽度</p>
+<ul>
+<li>boder-top-width</li>
+<li>boder-right-width</li>
+<li>boder-bottom-width</li>
+<li><p>boder-left-width</p>
+<p><strong>如果把border-style设置为none，表示边框不存在就没有宽度了，其次，不要忘记声明边框样式，因为默认值为none</strong></p>
+</li>
+</ul>
+<h4 id="boder-color-边框的颜色"><a href="#boder-color-边框的颜色" class="headerlink" title="boder-color:边框的颜色"></a>boder-color:边框的颜色</h4><pre><code>例如：p{boder-style:solid;
+boder-color:blue rgb(25%,35%,45%) #909090 red;}
+</code></pre><blockquote>
+<p>如果颜色值少于4个，值复制就会起作用<br>p{border-color: blue red;}<br>表示的是上下边框为蓝色 左右边框为红色</p>
+</blockquote>
+<p>如果你想为元素框的某一个边设置颜色</p>
+<ul>
+<li>boder-top-color</li>
+<li>boder-right-color</li>
+<li>boder-bottom-color</li>
+<li><p>boder-left-color</p>
+<p><strong>如果要创建有宽度的不可见边框</strong><br><strong>就加入 boder-color: transparent;</strong></p>
+</li>
+</ul>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/07/23/css列表/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1645,133 +1825,13 @@ hexo clean
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/06/10/会不会好/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="gaomeng">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/IMG_5534(20180507-031020).jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Whisky">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/06/10/会不会好/" itemprop="url">会不会好</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-06-10T23:11:33+08:00">
-                2018-06-10
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h3 id="今天真的是崩溃的一天"><a href="#今天真的是崩溃的一天" class="headerlink" title="今天真的是崩溃的一天"></a>今天真的是崩溃的一天</h3><ul>
-<li>把hexo弄崩掉</li>
-<li>五子棋变成了不知道什么样子</li>
-<li>周报还没写</li>
-</ul>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
   </section>
 
   
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right"></i></a>
+  </nav>
+
 
 
           </div>
@@ -1819,7 +1879,7 @@ hexo clean
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">10</span>
+                  <span class="site-state-item-count">11</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
