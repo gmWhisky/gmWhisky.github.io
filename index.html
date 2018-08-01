@@ -280,6 +280,129 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/08/01/三个关键字/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="gaomeng">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/IMG_5534(20180507-031020).jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Whisky">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/08/01/三个关键字/" itemprop="url">三个关键字</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-08-01T23:35:03+08:00">
+                2018-08-01
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="let-var-const-关键字的区别"><a href="#let-var-const-关键字的区别" class="headerlink" title="let var const 关键字的区别"></a>let var const 关键字的区别</h2><p>js中三种定义变量的方式const， var， let的区别。</p>
+<p><strong>1.const定义的变量不可以修改，而且必须初始化。</strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">const b = 2;//正确</span><br><span class="line">// const b;//错误，必须初始化 </span><br><span class="line">console.log(&apos;函数外const定义b：&apos; + b);//有输出值</span><br><span class="line">// b = 5;</span><br><span class="line">// console.log(&apos;函数外修改const定义b：&apos; + b);//无法输出</span><br></pre></td></tr></table></figure></p>
+<p><strong>2.var定义的变量可以修改，如果不初始化会输出undefined，不会报错。</strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">var a = 1;</span><br><span class="line">// var a;//不会报错</span><br><span class="line">console.log(&apos;函数外var定义a：&apos; + a);//可以输出a=1</span><br><span class="line">function change()&#123;</span><br><span class="line">a = 4;</span><br><span class="line">console.log(&apos;函数内var定义a：&apos; + a);//可以输出a=4</span><br><span class="line">&#125; </span><br><span class="line">change();</span><br><span class="line">console.log(&apos;函数调用后var定义a为函数内部修改值：&apos; + a);//可以输出a=4</span><br></pre></td></tr></table></figure></p>
+<p><strong>3.let是块级作用域，函数内部使用let定义后，对函数外部无影响。</strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">let c = 3;</span><br><span class="line">console.log(&apos;函数外let定义c：&apos; + c);//输出c=3</span><br><span class="line">function change()&#123;</span><br><span class="line">let c = 6;</span><br><span class="line">console.log(&apos;函数内let定义c：&apos; + c);//输出c=6</span><br><span class="line">&#125; </span><br><span class="line">change();</span><br><span class="line">console.log(&apos;函数调用后let定义c不受函数内部定义影响：&apos; + c);//输出c=3</span><br></pre></td></tr></table></figure></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/08/01/字符串-数组操作/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1592,130 +1715,6 @@ inherit ：从父元素继承
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/07/22/二叉树的层次遍历/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="gaomeng">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/IMG_5534(20180507-031020).jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Whisky">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/07/22/二叉树的层次遍历/" itemprop="url">二叉树的层次遍历</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-07-22T11:17:16+08:00">
-                2018-07-22
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h2 id="二叉树的层次遍历"><a href="#二叉树的层次遍历" class="headerlink" title="二叉树的层次遍历"></a>二叉树的层次遍历</h2><h3 id="问题描述：给定一个二叉树，返回其按层次遍历的节点值。-（即逐层地，从左到右访问所有节点）。"><a href="#问题描述：给定一个二叉树，返回其按层次遍历的节点值。-（即逐层地，从左到右访问所有节点）。" class="headerlink" title="问题描述：给定一个二叉树，返回其按层次遍历的节点值。 （即逐层地，从左到右访问所有节点）。"></a>问题描述：给定一个二叉树，返回其按层次遍历的节点值。 （即逐层地，从左到右访问所有节点）。</h3><h3 id="例如-给定二叉树-3-9-20-null-null-15-7"><a href="#例如-给定二叉树-3-9-20-null-null-15-7" class="headerlink" title="例如: 给定二叉树: [3,9,20,null,null,15,7],"></a>例如: 给定二叉树: [3,9,20,null,null,15,7],</h3><p><img src="/2018/07/22/二叉树的层次遍历/C:/Users\whisky\Pictures\markdown\1.png" alt="avatar"></p>
-<h3 id="返回其层次遍历结果："><a href="#返回其层次遍历结果：" class="headerlink" title="返回其层次遍历结果："></a>返回其层次遍历结果：</h3><h3 id="3-9-20-15-7"><a href="#3-9-20-15-7" class="headerlink" title="[ [3], [9,20],[15,7]]"></a>[ [3], [9,20],[15,7]]</h3><h3 id="第一种方法：递归"><a href="#第一种方法：递归" class="headerlink" title="第一种方法：递归"></a>第一种方法：递归</h3><p>按层开始进行打印，把根节点当作第0层，之后每一层逐级递增，假设我们要打印第二层。<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">print_at_level</span><span class="params">(Tree T,<span class="keyword">int</span> level)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(!T || level &lt; <span class="number">0</span>) <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">if</span>(level == <span class="number">0</span>)&#123;</span><br><span class="line">        <span class="built_in">cout</span> &lt;&lt; T-&gt;val&lt;&lt; <span class="string">" "</span>;  </span><br><span class="line">        <span class="keyword">return</span> <span class="number">1</span>;  </span><br><span class="line">    &#125;</span><br><span class="line"><span class="keyword">return</span> print_at_level(T-&gt;left, level - <span class="number">1</span>) + print_at_level(T-&gt;right, level - <span class="number">1</span>);  </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<p>如果我们成功的打印了给定的层次，那么就返回非0的值，如果失败就返回0；我们可以利用循环，来打印这个树的所有层的节点，如果说在print_at_level中指定的Tree是空的，那么就直接返回0，结束循环，表示没有节点可以打印<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">print_by_level_1</span><span class="params">(Tree T)</span> </span>&#123;  </span><br><span class="line">    <span class="keyword">int</span> i = <span class="number">0</span>;   </span><br><span class="line">    <span class="keyword">for</span> (i = <span class="number">0</span>; ; i++) &#123;  </span><br><span class="line">        <span class="keyword">if</span> (!print_at_level(T, i))  </span><br><span class="line">            <span class="keyword">break</span>;  </span><br><span class="line">    &#125;  </span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="built_in">endl</span>;  </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<h3 id="第二种方法：队列方法"><a href="#第二种方法：队列方法" class="headerlink" title="第二种方法：队列方法"></a>第二种方法：队列方法</h3><p>队列的特点，就是先进先出；首先将队列的头和尾都初始化为0，让节点的头进队，然后开始便利，将所有访问节点的左后孩子节点都放在队列中，直到所有层的节点都被访问。</p>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span> <span class="title">TreeNode</span> <span class="title">TreeNode</span>;</span></span><br><span class="line"><span class="function"><span class="keyword">int</span>** <span class="title">levelOrder</span><span class="params">(struct TreeNode* root, <span class="keyword">int</span>** columnSizes, <span class="keyword">int</span>* returnSize)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (root == <span class="literal">NULL</span>) <span class="keyword">return</span> <span class="literal">NULL</span>;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">int</span> **ans = <span class="built_in">malloc</span>(<span class="keyword">sizeof</span>(<span class="keyword">int</span> *) * <span class="number">1000</span>);</span><br><span class="line">    *columnSizes = <span class="built_in">malloc</span>(<span class="keyword">sizeof</span>(<span class="keyword">int</span>) * <span class="number">1000</span>);</span><br><span class="line">    </span><br><span class="line">    TreeNode *<span class="built_in">queue</span>[<span class="number">2000</span>]; <span class="comment">//easy queue</span></span><br><span class="line">    <span class="keyword">int</span> first = <span class="number">0</span>, end = <span class="number">0</span>;</span><br><span class="line">    <span class="built_in">queue</span>[end++] = root;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">int</span> nodes_cur_level = <span class="number">1</span>, nodes_next_level = <span class="number">0</span>, level = <span class="number">0</span>;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">while</span> (first &lt; end) &#123;</span><br><span class="line">        ans[level] = <span class="built_in">malloc</span>(<span class="keyword">sizeof</span>(<span class="keyword">int</span>) * <span class="number">1000</span>);</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; nodes_cur_level &amp;&amp; first &lt; end; i++) &#123;</span><br><span class="line">            TreeNode *tmp = <span class="built_in">queue</span>[first++];</span><br><span class="line">            ans[level][i] = tmp-&gt;val;</span><br><span class="line">            </span><br><span class="line">            <span class="keyword">if</span> (tmp-&gt;left) &#123;</span><br><span class="line">                <span class="built_in">queue</span>[end++] = tmp-&gt;left;</span><br><span class="line">                nodes_next_level++;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span> (tmp-&gt;right) &#123;</span><br><span class="line">                <span class="built_in">queue</span>[end++] = tmp-&gt;right;</span><br><span class="line">                nodes_next_level++;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        </span><br><span class="line">        (*columnSizes)[level++] = nodes_cur_level;</span><br><span class="line">        <span class="keyword">if</span> ((nodes_cur_level = nodes_next_level) == <span class="number">0</span>) <span class="keyword">break</span>;</span><br><span class="line">        </span><br><span class="line">        nodes_next_level = <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    *returnSize = level;</span><br><span class="line">    <span class="keyword">return</span> ans;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
   </section>
 
   
@@ -1770,7 +1769,7 @@ inherit ：从父元素继承
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">16</span>
+                  <span class="site-state-item-count">17</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
